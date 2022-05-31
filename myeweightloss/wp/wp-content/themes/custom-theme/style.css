@@ -1,0 +1,21 @@
+/*
+Theme Name: Custom LMS Theme
+Theme URI: None
+Author: Me
+Author URI: None
+Description: Our 2019 default theme is designed to show off the power of the block editor. Requires at least: WordPress 4.9.6
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+/* section.hm-sec3 a span{
+    position:absolute;
+    top: 225px;
+    right: 317px;
+    font-size: 30px;
+    color: #fff;
+} */
+
+.links ul li {
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+[25-Mar-2022 18:52:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/header.php:51
+Stack trace:
+#0 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template.php(770): require_once()
+#1 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template.php(716): load_template('/home/creapkxk/...', true, Array)
+#2 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/page-template/about.php(3): get_header()
+#4 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template-loader.php(106): include('/home/creapkxk/...')
+#5 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-blog-header.php(19): require_once('/home/creapkxk/...')
+#6 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/index.php(17): req in /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/header.php on line 51
+[25-Mar-2022 18:52:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/header.php:51
+Stack trace:
+#0 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template.php(770): require_once()
+#1 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template.php(716): load_template('/home/creapkxk/...', true, Array)
+#2 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/404.php(1): get_header()
+#4 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-includes/template-loader.php(106): include('/home/creapkxk/...')
+#5 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-blog-header.php(19): require_once('/home/creapkxk/...')
+#6 /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/index.php(17): require('/home/crea in /home/creapkxk/insitechstaging.com/demo/myeweightloss/wp/wp-content/themes/custom-theme/header.php on line 51
